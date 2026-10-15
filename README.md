@@ -262,7 +262,4 @@ taichi_project/
 3. **跨域 (CORS) 与 WebSocket 代理**：
    - 前端已在 `vite.config.js` 中配置了对 `http://localhost:8000`（API）与 `ws://localhost:8000`（WebSocket）的透明代理；
    - 后端已在 `main.py` 中配置允许所有跨域请求，默认开箱即用。
-4. **Git 提交特别注意**：
-   - 请勿提交 `taiji_backend/.venv`、`taichi-app/node_modules`、`taiji.db` 以及大体积视频文件到 Git 版本库。
-   - 若 `taichi-app` 目录下有单独的 `.git` 文件夹，请在全栈统一提交前移除该子目录的 `.git`，以免前端变为无效的嵌套子仓库。
 
