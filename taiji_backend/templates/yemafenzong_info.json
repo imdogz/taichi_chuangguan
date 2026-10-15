@@ -1,0 +1,70 @@
+{
+  "name": "yemafenzong",
+  "video_path": "videos\\yemafenzong.mp4",
+  "fps": 48.0,
+  "total_frames": 1973,
+  "duration": 41.1,
+  "keyframe_count": 12,
+  "keyframes": [
+    {
+      "index": 260,
+      "timestamp": 5.42,
+      "name": "起势"
+    },
+    {
+      "index": 451,
+      "timestamp": 9.4,
+      "name": "回收"
+    },
+    {
+      "index": 537,
+      "timestamp": 11.19,
+      "name": "分左鬃"
+    },
+    {
+      "index": 656,
+      "timestamp": 13.67,
+      "name": "伸左手"
+    },
+    {
+      "index": 829,
+      "timestamp": 17.27,
+      "name": "屈右膝"
+    },
+    {
+      "index": 967,
+      "timestamp": 20.15,
+      "name": "左腿单立"
+    },
+    {
+      "index": 1088,
+      "timestamp": 22.67,
+      "name": "分右鬃"
+    },
+    {
+      "index": 1260,
+      "timestamp": 26.25,
+      "name": "伸右手"
+    },
+    {
+      "index": 1420,
+      "timestamp": 29.58,
+      "name": "屈左膝"
+    },
+    {
+      "index": 1620,
+      "timestamp": 33.75,
+      "name": "右腿单立"
+    },
+    {
+      "index": 1755,
+      "timestamp": 36.56,
+      "name": "伸左腿"
+    },
+    {
+      "index": 1934,
+      "timestamp": 40.29,
+      "name": "伸左手"
+    }
+  ]
+}

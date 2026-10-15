@@ -1,0 +1,25 @@
+{
+  "name": "qishi",
+  "video_path": "videos\\qishi.mp4",
+  "fps": 30.0,
+  "total_frames": 471,
+  "duration": 15.7,
+  "keyframe_count": 3,
+  "keyframes": [
+    {
+      "index": 232,
+      "timestamp": 7.73,
+      "name": "迈步"
+    },
+    {
+      "index": 323,
+      "timestamp": 10.77,
+      "name": "抬手"
+    },
+    {
+      "index": 455,
+      "timestamp": 15.17,
+      "name": "下压"
+    }
+  ]
+}

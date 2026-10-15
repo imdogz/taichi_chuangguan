@@ -1,0 +1,29 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 引入谷歌字体：Noto Serif SC (为了好看的宋体) */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700;900&display=swap');
+
+/* 自定义动画 */
+.fade-in { animation: fadeIn 0.4s ease-out; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+/* 全局设置 */
+body {
+  /* 如果字体加载失败，回退到系统自带的宋体 */
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* 覆盖 Tailwind 的 font-serif 为中文字体 */
+.font-serif {
+  font-family: 'Noto Serif SC', 'SimSun', 'Songti SC', serif;
+}
+
+/* 滚动条美化 */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #9ca3af; }

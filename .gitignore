@@ -1,0 +1,40 @@
+# 后端忽略
+taiji_backend/.venv/
+taiji_backend/__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite 数据库
+taiji_backend/*.db
+taiji_backend/*.sqlite
+taiji_backend/*.sqlite3
+
+# 视频
+taiji_backend/videos/*.mp4
+taiji_backend/videos/*.mp3
+
+# 前端忽略
+taichi-app/node_modules/
+taichi-app/dist/
+taichi-app/dist-ssr/
+*.local
+
+# vscode
+.idea/
+taiji_backend/.idea/
+.vs/
+taichi-app/.vs/
+.vscode/settings.json
+taichi-app/.vscode/settings.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.DS_Store
+Thumbs.db
+
+# 环境变量
+.env
+.env.*
+!.env.example

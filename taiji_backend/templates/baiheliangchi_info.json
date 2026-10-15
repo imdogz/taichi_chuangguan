@@ -1,0 +1,30 @@
+{
+  "name": "baiheliangchi",
+  "video_path": "videos\\baiheliangchi.mp4",
+  "fps": 30.0,
+  "total_frames": 630,
+  "duration": 21.0,
+  "keyframe_count": 4,
+  "keyframes": [
+    {
+      "index": 155,
+      "timestamp": 5.17,
+      "name": "亮左翅"
+    },
+    {
+      "index": 298,
+      "timestamp": 9.93,
+      "name": "回收1"
+    },
+    {
+      "index": 419,
+      "timestamp": 13.97,
+      "name": "抬手"
+    },
+    {
+      "index": 595,
+      "timestamp": 19.83,
+      "name": "展开"
+    }
+  ]
+}
